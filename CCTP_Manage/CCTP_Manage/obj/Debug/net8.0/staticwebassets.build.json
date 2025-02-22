@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "f/zdFETHhM2+0Kmy1TFSrpVR7b3yaEwRy16EKt4TqKo=",
+  "Source": "CCTP_Manage",
+  "BasePath": "_content/CCTP_Manage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CCTP_Manage\\wwwroot",
+      "Source": "CCTP_Manage",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
