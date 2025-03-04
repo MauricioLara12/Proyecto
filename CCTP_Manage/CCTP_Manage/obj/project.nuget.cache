@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xj4ITCHyjYw=",
+  "dgSpecHash": "zCTrheA3fWo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj",
+  "projectFilePath": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauricio\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Mauricio\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

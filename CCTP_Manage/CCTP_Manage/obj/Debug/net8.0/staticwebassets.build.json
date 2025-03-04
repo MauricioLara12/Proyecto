@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f/zdFETHhM2+0Kmy1TFSrpVR7b3yaEwRy16EKt4TqKo=",
+  "Hash": "g7qBpzeBqSqETaOmX3PlKGvZNqTzMes+T77yHMrbZAo=",
   "Source": "CCTP_Manage",
   "BasePath": "_content/CCTP_Manage",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "CCTP_Manage\\wwwroot",
       "Source": "CCTP_Manage",
-      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
       "BasePath": "_content/CCTP_Manage",
       "Pattern": "**"
     }

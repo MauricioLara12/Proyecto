@@ -1,5 +1,9 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using CCTP_Manage.Helpers;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Protocol.Core.Types;
+using System.Security.Claims;
 
 namespace CCTP_Manage.Controllers
 {
@@ -14,7 +18,44 @@ namespace CCTP_Manage.Controllers
         //[HttpPost]
         //public IActionResult Login(LoginViewModel vm)
         //{
-        //    return View();
+        //    ModelState.Clear();
+        //    if (string.IsNullOrWhiteSpace(vm.Usuario))
+        //    {
+        //        ModelState.AddModelError("", "Debe indicar el nombre de usuario");
+        //    }
+        //    if (string.IsNullOrWhiteSpace(vm.Contraseña))
+        //    {
+        //        ModelState.AddModelError("", "Debe indicar la contraseña");
+        //    }
+        //    if (ModelState.IsValid)
+        //    {
+        //        var usuario = repository.GetAll().FirstOrDefault(x => x.NombreUsuario == vm.Usuario
+        //        && x.Contrasena == Encriptacion.Encriptar(vm.Contraseña));
+
+        //        if (usuario == null) //No existe 
+        //        {
+        //            ModelState.AddModelError("", "Nombre de usuario o contraseña incorrectos");
+        //            return View(vm);
+        //        }
+
+        //        //Si existe el usuario
+        //        //Crear sus claims (informacion conocida del usuario: autenticarlo)
+        //        List<Claim> claims = new();
+        //        claims.Add(new Claim("Id", usuario.Id.ToString()));
+        //        claims.Add(new Claim(ClaimTypes.Name, usuario.NombreUsuario));
+        //        claims.Add(new Claim(ClaimTypes.Email, usuario.Correo));
+
+        //        ClaimsIdentity claimsidentity = new ClaimsIdentity(claims,
+        //            CookieAuthenticationDefaults.AuthenticationScheme);
+
+        //        ClaimsPrincipal principal = new ClaimsPrincipal(claimsidentity);
+
+
+        //        this.HttpContext.SignInAsync(principal);
+
+        //        return RedirectToAction("Index", "Home");
+        //    }
+        //    return View(vm);
         //}
 
         [HttpGet]
@@ -23,11 +64,62 @@ namespace CCTP_Manage.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public IActionResult SignUp(SignUpViewModel vm)
-        //{
-        //    return View();
-        //}
+        [HttpPost]
+        public IActionResult SignUp(SignUpViewModel vm)
+        {
+            if (string.IsNullOrWhiteSpace(vm.Correo))
+            {
+                ModelState.AddModelError("", "Debe indicar el correo del usuario");
+            }
+            if (string.IsNullOrWhiteSpace(vm.Nombre))
+            {
+                ModelState.AddModelError("", "Debe indicar el nombre del usuario");
+            }
+            if (string.IsNullOrWhiteSpace(vm.Contraseña))
+            {
+                ModelState.AddModelError("", "Debe indicar la Contraseña del usuario");
+            }
+            if (string.IsNullOrWhiteSpace(vm.Telefono))
+            {
+                ModelState.AddModelError("", "Debe indicar el Telefono del usuario");
+            }
+            if (vm.Contraseña != vm.RepetirContraseña)
+            {
+                ModelState.AddModelError("", "Las Contraseñas no Coinciden");
+            }
+            if (repository.GetAll().Any(x => x.NombreUsuario == vm.Nombre))
+            {
+                ModelState.AddModelError("", "Ya existe un Usuario con el Mismo Nombre");
+            }
+            if (repository.GetAll().Any(x => x.Correo == vm.Correo))
+            {
+                ModelState.AddModelError("", "Ya existe un Usuario con el Mismo Correo");
+            }
+            if (repository.GetAll().Any(x => x.Telefono == vm.Telefono))
+            {
+                ModelState.AddModelError("", "Ya existe un Usuario con el Mismo Telefono");
+            }
+            if (repository.GetAll().Any(x => x.Telefono.Length != 10 || !x.Telefono.All(char.IsDigit)))
+            {
+                ModelState.AddModelError("", "El número de teléfono debe tener exactamente 10 dígitos y solo contener números.");
+            }
+            if (ModelState.IsValid)
+            {
+                Usuarios u = new();
+                u.Bloqueado = false;
+                u.Correo = vm.Correo;
+                u.NombreUsuario = vm.Nombre;
+                u.Contrasena = Encriptacion.Encriptar(vm.Contraseña);  //Encriptar en SHA
+                u.FechaRegistro = DateTime.Now;
+
+                repository.Insert(u);
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                return View(vm);
+            }
+        }
 
         public IActionResult SignOut()
         {

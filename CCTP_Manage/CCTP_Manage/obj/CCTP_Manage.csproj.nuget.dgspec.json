@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj": {}
+    "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj": {
+    "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj",
+        "projectUniqueName": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj",
         "projectName": "CCTP_Manage",
-        "projectPath": "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj",
+        "projectPath": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\CCTP_Manage.csproj",
         "packagesPath": "C:\\Users\\Mauricio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mauricio\\Documents\\VisualStudio\\CCTP_Manage\\CCTP_Manage\\obj\\",
+        "outputPath": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
