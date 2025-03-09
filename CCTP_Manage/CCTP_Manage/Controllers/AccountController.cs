@@ -121,6 +121,8 @@ namespace CCTP_Manage.Controllers
                 u.Nombre = vm.Nombre;
                 u.Telefono = vm.Telefono;
                 u.Contrasena = Encriptacion.Encriptar(vm.Contrasena);  //Encriptar en SHA
+                u.FechaRegistro = DateOnly.FromDateTime(DateTime.Now);
+                u.TipoUsuario = "Cliente";
 
                 repository.Insert(u);
                 return RedirectToAction("Login");
