@@ -1,7 +1,43 @@
-﻿
-@{
-    ViewData["Title"] = "SignUp";
-}
+﻿@model CCTP_Manage.Models.ViewModel.SignUpViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<head>
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form action="~/Account/SignUp" method="post">
+        <div>
+            <label for="Correo">Correo electrónico:</label>
+            <input asp-for="Correo" type="email" id="Correo" name="Correo" required>
+        </div>
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input asp-for="Nombre" type="text" id="Nombre" name="Nombre" required>
+        </div>
+        <div>
+            <label for="Telefono">Teléfono:</label>
+            <input asp-for="Telefono" type="tel" id="Telefono" name="Telefono" required>
+        </div>
+        <div>
+            <label for="Contrasena">Contraseña:</label>
+            <input asp-for="Contrasena" type="password" id="Contrasena" name="Contrasena" required>
+        </div>
+        <div>
+            <label for="RepetirContrasena">Repetir Contraseña:</label>
+            <input asp-for="RepetirContrasena" type="password" id="RepetirContrasena" name="RepetirContrasena" required>
+        </div>
+        @Html.ValidationSummary();
+        <div>
+            <input type="submit" name="" value="Registrar" />
+        </div>
+        <p class="signup">
+            ¿Ya tienes una cuenta ?
+            <a href="~/Account/Login">Inicia sesión</a>
+        </p>
 
-<h1>SignUp</h1>
+    </form>
+</body>
+</html>
+
 

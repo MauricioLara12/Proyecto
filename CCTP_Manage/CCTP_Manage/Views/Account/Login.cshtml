@@ -1,7 +1,30 @@
-﻿
-@{
-    ViewData["Title"] = "Login";
-}
+﻿@model CCTP_Manage.Models.ViewModel.LoginViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<head>
+    <title>Formulario de Inicio de Sesión</title>
+</head>
+<body>
+    <h1>Inicio de Sesión</h1>
+    <form action="~/Account/Login" method="post">
+        <div>
+            <label for="Correo">Correo electrónico:</label>
+            <input asp-for="Correo" type="email" id="Correo" name="Correo" required>
+        </div>
+        <div>
+            <label for="Contrasena">Contraseña:</label>
+            <input asp-for="Contrasena" type="password" id="Contrasena" name="Contrasena" required>
+        </div>
+        @Html.ValidationSummary()
+        <div>
+            <input type="submit" value="Iniciar sesión" />
+        </div>
+        <p class="signup">
+            ¿No tienes una cuenta?
+            <a href="~/Account/SignUp">Registrate</a>
+        </p>
 
-<h1>Login</h1>
+    </form>
+</body>
+</html>
 
