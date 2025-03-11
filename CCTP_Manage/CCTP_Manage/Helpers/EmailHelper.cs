@@ -29,7 +29,7 @@ public class EmailHelper
 
             clienteSmtp.Send(correo);
         }
-        catch (Exception ex)
+        catch
         {
             // Manejar la excepción (registrar, mostrar mensaje, etc.)
         }

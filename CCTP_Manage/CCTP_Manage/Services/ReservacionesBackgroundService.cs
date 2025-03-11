@@ -16,12 +16,20 @@ public class ReservacionesBackgroundService : BackgroundService
     {
         while (!stoppingToken.IsCancellationRequested)
         {
-            using (var scope = _serviceProvider.CreateScope())
+            try
             {
-                var reservacionesController = scope.ServiceProvider.GetRequiredService<ReservacionesController>();
-                reservacionesController.VerificarReservacion();
+                using (var scope = _serviceProvider.CreateScope())
+                {
+                    var reservacionesController = scope.ServiceProvider.GetRequiredService<ReservacionesController>();
+                    reservacionesController.VerificarReservacion(); // Llama al método
+                }
+                await Task.Delay(TimeSpan.FromHours(1), stoppingToken); // Ejecuta cada hora
             }
-            await Task.Delay(TimeSpan.FromHours(1), stoppingToken); // Ejecuta cada hora
+            catch (Exception ex)
+            {
+                // Manejar errores (logearlos, etc.)
+                Console.WriteLine($"Error en ReservacionesBackgroundService: {ex.Message}");
+            }
         }
     }
 }

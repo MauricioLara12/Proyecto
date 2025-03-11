@@ -1,71 +1,42 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MySqlConnector;
+﻿using CCTP_Manage.Models.Entities;
+using CCTP_Manage.Repositories;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using CCTP_Manage.Helpers;
 
 public class ReservacionesController : Controller
 {
-    private readonly string connectionString = "server=localhost;user=root;password=root;database=saloneventosdb";
+    private readonly Repository<Reservacione> _reservacionRepository;
     private readonly EmailHelper _emailHelper;
 
-    public ReservacionesController(EmailHelper emailHelper)
+    public ReservacionesController(Repository<Reservacione> reservacionRepository, EmailHelper emailHelper)
     {
+        _reservacionRepository = reservacionRepository;
         _emailHelper = emailHelper;
     }
 
     public void VerificarReservacion()
     {
-        using (MySqlConnection conn = new MySqlConnection(connectionString))
+        // Obtener reservaciones próximas (dentro de los próximos 2 días)
+        var reservacionesProximas = _reservacionRepository.GetAll()
+            .Where(r => r.FechaReservacion >= DateOnly.FromDateTime(DateTime.Now)
+                     && r.FechaReservacion <= DateOnly.FromDateTime(DateTime.Now.AddDays(2)))
+            .ToList();
+
+        foreach (var reservacion in reservacionesProximas)
         {
-            conn.Open();
-            string query = "SELECT usuario_id, fecha_reservacion, hora_inicio FROM reservaciones WHERE fecha_reservacion BETWEEN CURDATE() AND CURDATE() + INTERVAL 2 DAY";
+            // Obtener el usuario relacionado con la reservación
+            var usuario = reservacion.Usuario;
 
-            using (MySqlCommand cmd = new MySqlCommand(query, conn))
-            using (MySqlDataReader reader = cmd.ExecuteReader())
+            if (!string.IsNullOrEmpty(usuario.Correo))
             {
-                while (reader.Read())
-                {
-                    string usuarioId = reader["usuario_id"].ToString();
-                    DateTime fechaReservacion = DateTime.Parse(reader["fecha_reservacion"].ToString());
-                    TimeSpan horaInicio = TimeSpan.Parse(reader["hora_inicio"].ToString());
+                // Construir el correo de notificación
+                string asunto = "Recordatorio de Reservación";
+                string cuerpo = $"Estimado {usuario.Nombre}, le recordamos que tiene una reservación el {reservacion.FechaReservacion.ToShortDateString()} a las {reservacion.HoraInicio}.";
 
-                    // Obtener el correo del usuario
-                    string destinatario = ObtenerCorreoUsuario(usuarioId);
-
-                    string asunto = "Recordatorio de Reservación";
-                    string cuerpo = $"Estimado cliente, le recordamos que tiene una reservación el {fechaReservacion.ToShortDateString()} a las {horaInicio}.";
-
-                    if (!string.IsNullOrEmpty(destinatario))
-                    {
-                        _emailHelper.EnviarNotificacionPorCorreo(destinatario, asunto, cuerpo);
-                    }
-                }
+                // Enviar el correo de notificación
+                _emailHelper.EnviarNotificacionPorCorreo(usuario.Correo, asunto, cuerpo);
             }
         }
-    }
-
-    private string ObtenerCorreoUsuario(string usuarioId)
-    {
-        string correoUsuario = "";
-
-        using (MySqlConnection conn = new MySqlConnection(connectionString))
-        {
-            conn.Open();
-            string query = "SELECT correo FROM usuarios WHERE usuario_id = @UsuarioId";
-
-            using (MySqlCommand cmd = new MySqlCommand(query, conn))
-            {
-                cmd.Parameters.AddWithValue("@UsuarioId", usuarioId);
-
-                using (MySqlDataReader reader = cmd.ExecuteReader())
-                {
-                    if (reader.Read())
-                    {
-                        correoUsuario = reader["correo"].ToString();
-                    }
-                }
-            }
-        }
-
-        return correoUsuario;
     }
 }
