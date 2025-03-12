@@ -12,6 +12,7 @@
     <Folder Include="Areas\Administrador\Models\" />
     <Folder Include="Areas\Administrador\Views\" />
     <Folder Include="Areas\" />
+    <Folder Include="Services\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

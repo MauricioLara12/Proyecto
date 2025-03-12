@@ -110,10 +110,10 @@ namespace CCTP_Manage.Controllers
             {
                 ModelState.AddModelError("", "Ya existe un Usuario con el Mismo Telefono");
             }
-            if (repository.GetAll().Any(x => x.Telefono.Length != 10 || !x.Telefono.All(char.IsDigit)))
-            {
-                ModelState.AddModelError("", "El número de teléfono debe tener exactamente 10 dígitos y solo contener números.");
-            }
+            //if (repository.GetAll().Any(x => x.Telefono.Length != 10 || !x.Telefono.All(char.IsDigit)))
+            //{
+            //    ModelState.AddModelError("", "El número de teléfono debe tener exactamente 10 dígitos y solo contener números.");
+            //}
             if (ModelState.IsValid)
             {
                 Usuario u = new();

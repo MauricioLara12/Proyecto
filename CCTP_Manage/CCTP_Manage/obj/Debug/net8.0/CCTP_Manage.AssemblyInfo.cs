@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CCTP_Manage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38595a388a3577fcf4d4e2d3028f24674a5d4420")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1ad5077deb380a9081d2ff96a8ac057a5f8471d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CCTP_Manage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CCTP_Manage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
