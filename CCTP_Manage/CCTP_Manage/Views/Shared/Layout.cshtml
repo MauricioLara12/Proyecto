@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - Club Caza Tiro y Pesca</title>
+    <link href="@Url.Content("~/Estilos/styles.css")" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <span class="header-title">Club Caza Tiro Y Pesca</span>
+        <div class="header-icons">
+            <a href="/reservaciones">
+                <img src="@Url.Content("~/images/calendarlogo.png")" alt="calendarlogo">
+            </a>
+            <a href="/perfil">
+                <img src="@Url.Content("~/images/userlogo.png")" alt="userlogo">
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+        Todos los derechos reservados &copy; @DateTime.Now.Year
+    </footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+wwwroot\Estilos\styles.css
+wwwroot\images\calendarlogo.png
+wwwroot\images\img1.png
+wwwroot\images\img2.png
+wwwroot\images\img3.png
+wwwroot\images\img4.png
+wwwroot\images\isUsuario.png
+wwwroot\images\persona.png
+wwwroot\images\userlogo.png

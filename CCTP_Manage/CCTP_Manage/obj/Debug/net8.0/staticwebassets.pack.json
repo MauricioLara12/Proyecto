@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\Estilos\\styles.css",
+      "PackagePath": "staticwebassets\\Estilos\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\calendarlogo.png",
+      "PackagePath": "staticwebassets\\images\\calendarlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img1.png",
+      "PackagePath": "staticwebassets\\images\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img2.png",
+      "PackagePath": "staticwebassets\\images\\img2.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img3.png",
+      "PackagePath": "staticwebassets\\images\\img3.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img4.png",
+      "PackagePath": "staticwebassets\\images\\img4.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\isUsuario.png",
+      "PackagePath": "staticwebassets\\images\\isUsuario.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\persona.png",
+      "PackagePath": "staticwebassets\\images\\persona.png"
+    },
+    {
+      "Id": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\userlogo.png",
+      "PackagePath": "staticwebassets\\images\\userlogo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CCTP_Manage.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CCTP_Manage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CCTP_Manage.props",
+      "PackagePath": "build\\CCTP_Manage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CCTP_Manage.props",
+      "PackagePath": "buildMultiTargeting\\CCTP_Manage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CCTP_Manage.props",
+      "PackagePath": "buildTransitive\\CCTP_Manage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -64,7 +64,7 @@ namespace CCTP_Manage.Controllers
 
                 this.HttpContext.SignInAsync(principal);
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Perfil", "Account");
             }
             return View(vm);
         }
@@ -131,6 +131,13 @@ namespace CCTP_Manage.Controllers
             {
                 return View(vm);
             }
+        }
+
+
+
+        public IActionResult Perfil()
+        {
+            return View();
         }
 
         public IActionResult SignOut()

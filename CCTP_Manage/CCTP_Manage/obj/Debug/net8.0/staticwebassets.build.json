@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g7qBpzeBqSqETaOmX3PlKGvZNqTzMes+T77yHMrbZAo=",
+  "Hash": "Puti0NDHhXREmpsv8czC9Ttlf9X07bVbFe5nQ7pUxD0=",
   "Source": "CCTP_Manage",
   "BasePath": "_content/CCTP_Manage",
   "Mode": "Default",
@@ -15,6 +15,935 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\Estilos\\styles.css",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "Estilos/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "exmp5qled3",
+      "Integrity": "Ut0TmtUjAVg1SGlQAO2j7i4KwsxizrEEkdjDjwDl/8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Estilos\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\calendarlogo.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/calendarlogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5etelxvh2u",
+      "Integrity": "s+oc2Mx8T86X40z/Y7yjVKpOOor3yk7y1mp/DWT+B70=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\calendarlogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img1.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/img1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tvmdecoy10",
+      "Integrity": "GTPfS/206R1bYFnQD1A/ArvFWukdcp/99ihMRorRpqc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img2.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/img2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jaw89h7khv",
+      "Integrity": "ha3KBhQnyDjpVWq4pFBRuqTzY8Pj5ggKOAGcCIXpXOI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img3.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/img3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gd0e7g5kjd",
+      "Integrity": "nA+ZZ8/hEnzi/FahckRyWrzQEVodPO5/m8CQ4TzaMwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img4.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/img4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1a1plfso9j",
+      "Integrity": "R5wz1xGlNFqb9FW0CSjkLnaiL3gupUybvSi2gS0hCGI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img4.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\isUsuario.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/isUsuario#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "883eja6nb4",
+      "Integrity": "2IJIRvWxXUFcN+69s8eghaWbo6hbkVyb9ccPZuAzPqA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\isUsuario.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\persona.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/persona#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2qpovsz4ku",
+      "Integrity": "xsjlr+Yw3f/8dFADacmo94Wc6jpovg/1syg4PU6n0S8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\persona.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\userlogo.png",
+      "SourceId": "CCTP_Manage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\",
+      "BasePath": "_content/CCTP_Manage",
+      "RelativePath": "images/userlogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6e0k5c7ctj",
+      "Integrity": "AnwUQWj4gq+igRMsyzMXYqggBCwrWKhhTAm438m39sY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\userlogo.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Estilos/styles.css",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\Estilos\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ut0TmtUjAVg1SGlQAO2j7i4KwsxizrEEkdjDjwDl/8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 21:32:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ut0TmtUjAVg1SGlQAO2j7i4KwsxizrEEkdjDjwDl/8M="
+        }
+      ]
+    },
+    {
+      "Route": "Estilos/styles.exmp5qled3.css",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\Estilos\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ut0TmtUjAVg1SGlQAO2j7i4KwsxizrEEkdjDjwDl/8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 21:32:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "exmp5qled3"
+        },
+        {
+          "Name": "label",
+          "Value": "Estilos/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ut0TmtUjAVg1SGlQAO2j7i4KwsxizrEEkdjDjwDl/8M="
+        }
+      ]
+    },
+    {
+      "Route": "images/calendarlogo.5etelxvh2u.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\calendarlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+oc2Mx8T86X40z/Y7yjVKpOOor3yk7y1mp/DWT+B70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 20:29:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5etelxvh2u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/calendarlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+oc2Mx8T86X40z/Y7yjVKpOOor3yk7y1mp/DWT+B70="
+        }
+      ]
+    },
+    {
+      "Route": "images/calendarlogo.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\calendarlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+oc2Mx8T86X40z/Y7yjVKpOOor3yk7y1mp/DWT+B70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 20:29:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+oc2Mx8T86X40z/Y7yjVKpOOor3yk7y1mp/DWT+B70="
+        }
+      ]
+    },
+    {
+      "Route": "images/img1.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GTPfS/206R1bYFnQD1A/ArvFWukdcp/99ihMRorRpqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GTPfS/206R1bYFnQD1A/ArvFWukdcp/99ihMRorRpqc="
+        }
+      ]
+    },
+    {
+      "Route": "images/img1.tvmdecoy10.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GTPfS/206R1bYFnQD1A/ArvFWukdcp/99ihMRorRpqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tvmdecoy10"
+        },
+        {
+          "Name": "label",
+          "Value": "images/img1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GTPfS/206R1bYFnQD1A/ArvFWukdcp/99ihMRorRpqc="
+        }
+      ]
+    },
+    {
+      "Route": "images/img2.jaw89h7khv.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ha3KBhQnyDjpVWq4pFBRuqTzY8Pj5ggKOAGcCIXpXOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jaw89h7khv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/img2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ha3KBhQnyDjpVWq4pFBRuqTzY8Pj5ggKOAGcCIXpXOI="
+        }
+      ]
+    },
+    {
+      "Route": "images/img2.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ha3KBhQnyDjpVWq4pFBRuqTzY8Pj5ggKOAGcCIXpXOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ha3KBhQnyDjpVWq4pFBRuqTzY8Pj5ggKOAGcCIXpXOI="
+        }
+      ]
+    },
+    {
+      "Route": "images/img3.gd0e7g5kjd.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nA+ZZ8/hEnzi/FahckRyWrzQEVodPO5/m8CQ4TzaMwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:45:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gd0e7g5kjd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/img3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nA+ZZ8/hEnzi/FahckRyWrzQEVodPO5/m8CQ4TzaMwk="
+        }
+      ]
+    },
+    {
+      "Route": "images/img3.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nA+ZZ8/hEnzi/FahckRyWrzQEVodPO5/m8CQ4TzaMwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:45:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nA+ZZ8/hEnzi/FahckRyWrzQEVodPO5/m8CQ4TzaMwk="
+        }
+      ]
+    },
+    {
+      "Route": "images/img4.1a1plfso9j.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5wz1xGlNFqb9FW0CSjkLnaiL3gupUybvSi2gS0hCGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:45:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1a1plfso9j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/img4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5wz1xGlNFqb9FW0CSjkLnaiL3gupUybvSi2gS0hCGI="
+        }
+      ]
+    },
+    {
+      "Route": "images/img4.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\img4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5wz1xGlNFqb9FW0CSjkLnaiL3gupUybvSi2gS0hCGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 06:45:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5wz1xGlNFqb9FW0CSjkLnaiL3gupUybvSi2gS0hCGI="
+        }
+      ]
+    },
+    {
+      "Route": "images/isUsuario.883eja6nb4.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\isUsuario.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IJIRvWxXUFcN+69s8eghaWbo6hbkVyb9ccPZuAzPqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 21:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "883eja6nb4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/isUsuario.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IJIRvWxXUFcN+69s8eghaWbo6hbkVyb9ccPZuAzPqA="
+        }
+      ]
+    },
+    {
+      "Route": "images/isUsuario.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\isUsuario.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IJIRvWxXUFcN+69s8eghaWbo6hbkVyb9ccPZuAzPqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 21:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IJIRvWxXUFcN+69s8eghaWbo6hbkVyb9ccPZuAzPqA="
+        }
+      ]
+    },
+    {
+      "Route": "images/persona.2qpovsz4ku.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\persona.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsjlr+Yw3f/8dFADacmo94Wc6jpovg/1syg4PU6n0S8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qpovsz4ku"
+        },
+        {
+          "Name": "label",
+          "Value": "images/persona.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsjlr+Yw3f/8dFADacmo94Wc6jpovg/1syg4PU6n0S8="
+        }
+      ]
+    },
+    {
+      "Route": "images/persona.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\persona.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsjlr+Yw3f/8dFADacmo94Wc6jpovg/1syg4PU6n0S8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsjlr+Yw3f/8dFADacmo94Wc6jpovg/1syg4PU6n0S8="
+        }
+      ]
+    },
+    {
+      "Route": "images/userlogo.6e0k5c7ctj.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\userlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AnwUQWj4gq+igRMsyzMXYqggBCwrWKhhTAm438m39sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 20:31:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6e0k5c7ctj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/userlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AnwUQWj4gq+igRMsyzMXYqggBCwrWKhhTAm438m39sY="
+        }
+      ]
+    },
+    {
+      "Route": "images/userlogo.png",
+      "AssetFile": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\wwwroot\\images\\userlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AnwUQWj4gq+igRMsyzMXYqggBCwrWKhhTAm438m39sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 20:31:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AnwUQWj4gq+igRMsyzMXYqggBCwrWKhhTAm438m39sY="
+        }
+      ]
+    }
+  ]
 }
