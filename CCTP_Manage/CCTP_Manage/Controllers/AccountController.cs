@@ -4,6 +4,7 @@ using CCTP_Manage.Models.ViewModel;
 using CCTP_Manage.Repositories;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NuGet.Protocol.Core.Types;
 using System.Security.Claims;
@@ -135,10 +136,52 @@ namespace CCTP_Manage.Controllers
 
 
 
+        [Authorize]
+        [HttpGet]
         public IActionResult Perfil()
         {
-            return View();
+            // Obtener el ID del usuario autenticado
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "Id");
+            if (userIdClaim == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            int userId = int.Parse(userIdClaim.Value);
+
+            // Obtener las reservaciones del usuario y sus zonas asociadas
+            var reservaciones = context.Reservaciones
+                .Where(r => r.UsuarioId == userId)
+                .Select(r => new
+                {
+                    r.Id,
+                    r.FechaReservacion,
+                    r.HoraInicio,
+                    r.CostoTotal,
+                    r.Estado,
+                    r.EstadoPago,
+                    Zonas = r.Reservacionzonas.Select(z => z.Zona.Nombre).ToList()
+                }).ToList();
+
+            // Crear el modelo para la vista
+            var perfilViewModel = new PerfilViewModel
+            {
+                Nombre = User.Identity.Name,
+                Reservaciones = reservaciones.Select(r => new ReservacionViewModel
+                {
+                    Id = r.Id,
+                    FechaReservacion = r.FechaReservacion,
+                    HoraInicio = r.HoraInicio,
+                    CostoTotal = r.CostoTotal,
+                    Estado = r.Estado,
+                    EstadoPago = r.EstadoPago,
+                    Zonas = r.Zonas
+                }).ToList()
+            };
+
+            return View(perfilViewModel);
         }
+
 
         public IActionResult SignOut()
         {

@@ -1,32 +1,32 @@
-﻿@model CCTP_Manage.Models.Entities.Usuario
+﻿@model CCTP_Manage.Models.ViewModel.PerfilViewModel
 @{
-    Layout ="Layout";
+    Layout = "Layout";
 }
 
 <div class="perfil-container">
     <div class="perfil-header">
-@*         <div class="perfil-icon">
+        @*         <div class="perfil-icon">
             <i class="fas fa-user-circle"></i>
         </div> *@
 
         <div class="perfil-info">
-            <h2>Adrián Segovia Padilla</h2>
+            <h2>@Model.Nombre</h2>
         </div>
 
         <div class="Perfil-card">
-        <img src="~/images/isUsuario.png" alt="Img">
+            <img src="~/images/isUsuario.png" alt="Img">
         </div>
     </div>
 
     <div class="perfil-details">
         <div class="perfil-section">
-            <p>Tipo de cuenta: Normal</p>
-            <p>Reservaciones realizadas:</> 20</p>
-            <p>Reservaciones pendientes: 2</p>
+            <p>Tipo de cuenta: @Model.TipoUsuario</p>
+            <p>Reservaciones realizadas:</> @Model.Reservaciones.Count</p>
+            <p>Reservaciones pendientes: @Model.Reservaciones.Count(r => r.Estado == "Pendiente")</p>
         </div>
         <div class="perfil-section">
-            <p>Reservaciones pendientes de pago: 0</p>
-            <p>Año de creación de la cuenta: 2025</p>
+            <p>Reservaciones pendientes de pago: @Model.Reservaciones.Count(r => r.EstadoPago == "Pendientes")</p>
+            <p>Año de creación de la cuenta: @Model.FechaRegistro.Year</p>
         </div>
     </div>
 
@@ -34,6 +34,6 @@
         <button class="btn btn-historial">Ver historial de pagos</button>
         <button class="btn btn-pendientes">Pagos pendientes</button>
         <button class="btn btn-eliminar">Eliminar Cuenta</button>
-        <button class="btn btn-cerrar">Cerrar sesión</button>
+        <button class="btn btn-cerrar" onclick="location.href='@Url.Action("SignOut", "Account")'>Cerrar sesión</button>
     </div>
 </div>

@@ -5,10 +5,10 @@ namespace CCTP_Manage.Controllers
 {
     public class HomeController : Controller
     {
-        [Authorize]
+       
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Login", "Account");
         }
     }
 }

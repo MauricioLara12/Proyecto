@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|c:\\users\\mauricio\\documents\\proyecto\\proyecto\\cctp_manage\\cctp_manage\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|solutionrelative:cctp_manage\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|c:\\users\\mauricio\\documents\\proyecto\\proyecto\\cctp_manage\\cctp_manage\\views\\reservas\\cancelarreserva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|solutionrelative:cctp_manage\\views\\reservas\\cancelarreserva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|c:\\users\\mauricio\\documents\\proyecto\\proyecto\\cctp_manage\\cctp_manage\\views\\account\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|solutionrelative:cctp_manage\\views\\account\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|c:\\users\\mauricio\\documents\\proyecto\\proyecto\\cctp_manage\\cctp_manage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|solutionrelative:cctp_manage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|c:\\users\\mauricio\\documents\\proyecto\\proyecto\\cctp_manage\\cctp_manage\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|solutionrelative:cctp_manage\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|c:\\users\\mauricio\\documents\\proyecto\\proyecto\\cctp_manage\\cctp_manage\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5C5453-2F0E-40F4-8598-6FBBB27CC7DF}|CCTP_Manage\\CCTP_Manage.csproj|solutionrelative:cctp_manage\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Perfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Views\\Account\\Perfil.cshtml",
-              "RelativeDocumentMoniker": "CCTP_Manage\\Views\\Account\\Perfil.cshtml",
-              "ToolTip": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Views\\Account\\Perfil.cshtml",
-              "RelativeToolTip": "CCTP_Manage\\Views\\Account\\Perfil.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T16:04:03.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Program.cs",
-              "RelativeDocumentMoniker": "CCTP_Manage\\Program.cs",
-              "ToolTip": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Program.cs",
-              "RelativeToolTip": "CCTP_Manage\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:54:12.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Views\\Account\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "CCTP_Manage\\Views\\Account\\SignUp.cshtml",
-              "ToolTip": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Views\\Account\\SignUp.cshtml",
-              "RelativeToolTip": "CCTP_Manage\\Views\\Account\\SignUp.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T15:50:42.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "CCTP_Manage\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "CCTP_Manage\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAUwEIAAAA6AAAAAAAAAA==",
+              "Title": "CancelarReserva.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Views\\Reservas\\CancelarReserva.cshtml",
+              "RelativeDocumentMoniker": "CCTP_Manage\\Views\\Reservas\\CancelarReserva.cshtml",
+              "ToolTip": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Views\\Reservas\\CancelarReserva.cshtml",
+              "RelativeToolTip": "CCTP_Manage\\Views\\Reservas\\CancelarReserva.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T16:58:33.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "CCTP_Manage\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\Mauricio\\Documents\\Proyecto\\Proyecto\\CCTP_Manage\\CCTP_Manage\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "CCTP_Manage\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:45:46.976Z",
+              "WhenOpened": "2025-03-13T16:40:12.303Z",
               "EditorCaption": ""
             }
           ]
